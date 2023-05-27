@@ -25,8 +25,7 @@ document.querySelector(".input-submit").addEventListener("click",e=>{
         return true;
     }else{
         const errorText = document.getElementById("text-container__status");
-        const textNode = document.createTextNode("Valid email required");
-        errorText.appendChild(textNode);
+        errorText.textContent = "Valid email required"
         email.classList.add('email-error');
         return false;
     };

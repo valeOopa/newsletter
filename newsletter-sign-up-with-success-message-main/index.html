@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  
+  <article id="principal-article">
+    <section id="text-section">
+      <h1 id="text-section__title">Stay updated!</h1>
+      <p id="text-section__paragraph">Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul id="text-section__list">
+        <li class="list-elements"><img class="list-images" src="assets/images/icon-list.png">Product discovery and building what matters</li>
+        <li class="list-elements"><img class="list-images" src="assets/images/icon-list.png">Measuring to ensure updates are a success</li>
+        <li class="list-elements"><img class="list-images" src="assets/images/icon-list.png">And much more!</li>
+      </ul>
+      <form id="text-section__form">
+        <div id="text-container">
+          <p id="text-container__subtitle">Email address</p>
+          <p id="text-container__status"></p>
+        </div>
+        <input class="input-email ipt-styles" type="email" placeholder="email@company.com">
+        <input class="input-submit ipt-styles" type="submit" value="Subscribe to monthly newsletter">
+      </form>
+    </section>
+    <section id="img-section">
+      <img id="img-section__image-mobile" src="assets/images/illustration-sign-up-mobile.png">
+      <img id="img-section__image" src="assets/images/illustration-sign-up-desktop.png">
+    </section>
+    
+  </article>
+  <article id="message">
+    <div id="message__image-container">
+      <img id="image" src="assets/images/icon-success.png">
+    </div>
+    <h2 id="message__title">Thanks for subscribing!</h2>
+    <p id="message__paragraph">
+      A confirmation email has been sent to <span id="current-mail"></span>. 
+      Please open it and click the button inside to confirm your subscription.
+    </p>
+    <div id="container-btn">
+      <button class="ipt-styles" id="message__btn">Dismiss message</button>
+    </div>
+  </article>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Delgadino Valentino</a>.
+  </div>-->
+  <script src="code.js"></script>
+</body>
+</html>
+<!--
+  Stay updated!
+
+  Join 60,000+ product managers receiving monthly updates on:
+
+  Product discovery and building what matters
+  Measuring to ensure updates are a success
+  And much more!
+
+  Email address
+  email@company.com
+
+  Subscribe to monthly newsletter
+
+  Thanks for subscribing!
+
+  A confirmation email has been sent to ash@loremcompany.com. 
+  Please open it and click the button inside to confirm your subscription.  -->

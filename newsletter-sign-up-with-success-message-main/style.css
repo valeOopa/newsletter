@@ -243,6 +243,11 @@ body{
         width: 100%;
         max-width: 420px;
         height: 100vh;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
     }
     #image{
         width: 64px;
